@@ -1,5 +1,6 @@
 #FROM fluent/fluentd:v0.12-onbuild
-FROM fluent/fluentd:v0.12
+FROM fluent/fluentd:v1.1-onbild
+
 MAINTAINER Chris Rohrer chris.rohrer@ubuntunet.net
 
 RUN apk add --update --virtual .build-deps \
