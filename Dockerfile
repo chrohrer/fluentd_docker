@@ -1,5 +1,5 @@
 #FROM fluent/fluentd:v0.12-onbuild
-FROM fluent/fluentd:v1.1-onbuild
+FROM fluent/fluentd:v1.3-onbuild-1
 
 MAINTAINER Chris Rohrer chris.rohrer@ubuntunet.net
 
