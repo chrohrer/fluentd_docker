@@ -10,6 +10,7 @@ RUN apk add --update --virtual .build-deps \
  && sudo gem install \
         fluent-plugin-elasticsearch \
         fluent-plugin-tagged_udp \
+        fluent-plugin-remote_syslog \
  && sudo gem sources --clear-all \
  && apk del .build-deps \
  && rm -rf /var/cache/apk/* \
